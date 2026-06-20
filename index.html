@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Happy Birthday Rahul ❤️</title>
+
+<style>
+
+body{
+background:#f5efe6;
+font-family:Georgia,serif;
+margin:0;
+padding:0;
+text-align:center;
+color:#5a3d2b;
+}
+
+section{
+padding:60px 20px;
+border-bottom:1px solid #ddd;
+}
+
+h1{
+font-size:50px;
+}
+
+.photo{
+width:250px;
+height:250px;
+background:#ddd;
+margin:auto;
+border-radius:20px;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.box{
+max-width:800px;
+margin:auto;
+background:white;
+padding:20px;
+border-radius:20px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+button{
+padding:10px 25px;
+border:none;
+background:#c86b6b;
+color:white;
+border-radius:10px;
+cursor:pointer;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<section>
+
+<h1>Happy Birthday, My Favorite Person ❤️</h1>
+
+<div class="photo">
+Your Photo Here
+</div>
+
+</section>
+
+<section>
+
+<h2>Reasons Why I Love You ❤️</h2>
+
+<div class="box">
+
+<p>❤️ You know exactly how to annoy me and make me laugh at the same time.</p>
+
+<p>❤️ You're the person I look for first in a crowd.</p>
+
+<p>❤️ The child in me comes out when I am around you.</p>
+
+<p>❤️ Because loving you feels like the easiest thing I've ever done.</p>
+
+<p>❤️ You understand me in ways I can't explain.</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Our Best Memories 📸</h2>
+
+<div class="box">
+
+<h3>2023</h3>
+<p>The year everything felt new.</p>
+
+<h3>2024</h3>
+<p>The year we got closer.</p>
+
+<h3>2025</h3>
+<p>The year I realized I never want to celebrate without you.</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Birthday Surprise 🎁</h2>
+
+<div class="box">
+
+<h3>One Last Thing...</h3>
+
+<p>You've reached the final page.</p>
+
+<p>But your gift isn't unlocked yet.</p>
+
+<p>Enter Secret Code:</p>
+
+<input id="code" type="password">
+
+<br><br>
+
+<button onclick="checkCode()">
+Unlock Gift
+</button>
+
+<p id="result"></p>
+
+</div>
+
+</section>
+
+<script>
+
+function checkCode(){
+
+let code=document.getElementById("code").value;
+
+if(code=="CR0202"){
+
+document.getElementById("result").innerHTML=
+"🎉 Surprise Unlocked! ❤️";
+
+}
+
+else{
+
+document.getElementById("result").innerHTML=
+"❌ Wrong Code";
+
+}
+
+}
+
+</script>
+
+</body>
+</html>
